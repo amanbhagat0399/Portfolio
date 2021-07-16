@@ -5,51 +5,66 @@ import algo from '../assets/icons/algo.svg'
 import computer from '../assets/icons/computer.svg'
 import repair from '../assets/icons/repair.svg'
 import puzzle from '../assets/icons/puzzle.svg'
+import { motion } from 'framer-motion'
 
 import Skillcard from './Skillcard';
 
 const skills = [
+
+    {
+        icon: repair,
+        title: "Machine Learning",
+        about: "I have knowledge of various machine learning algorithms for Regression/Classification and of libraries like Numpy, Pandas, Scikit Learn and currently learning Deep Learning with Tensorflow Library",
+    },
+    {
+        icon: computer,
+        title: "Data Science",
+        about: "I can perform the data science operations like EDA, Visualization, and Model Building with the help of libraries like Numpy, Pandas, Seaborn, Matplotlib, SckitLearn and will learn Power BI soon."
+    },
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
+        about: "I can build a beautiful and scalable SPA using HTML, CSS, Bootstrap and React.js"
     },
     {
-        icon: repair,
+        icon: backend,
         title: "Backend  Development",
-        about: "handle database, server, api using and SQLlite",
+        about: "I know Flask framework and database SQLite3, currently learning Django for API/ REST-API",
     },
-    {
-        icon: api,
-        title: "API Development",
-        about: "I can develop robust REST API using django-rest-api "
-    },
-    {
-        icon: algo,
-        title: "Competitive Coder",
-        about: "a daily problem solver in HackerRank and Leetcode"
-    },
-    {
-        icon: puzzle,
-        title: "UI/UX designer",
-        about: "minimalistic user interface designer using figma and  framer"
-    },
-    {
-        icon: computer,
-        title: "Whatever",
-        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
-    },
+
 ]
 
-
 const About = () => {
+    const about_variants = {
+        hidden: {
+            opacity: 0
+        },
+        visible: {
+            opacity: 1,
+            transition: {
+                dealy: 0.2, duration: 0.6,
+            }
+        },
+        exit: {
+            opacity: 0,
+            transition: {
+                ease: 'easeInOut'
+            }
+        }
+    }
     return (
-        <div className="about">
+        <motion.div className="about"
+
+            variants={about_variants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+        >
             <h6 className="about__intro">
                 I describe myself as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.
             </h6>
             <div className="container about__container">
-                <h6 className="about__heading">What I offer</h6>
+                <h6 className="about__heading">Things I Know</h6>
                 <div className="row">
                     {
                         skills.map(skill =>
@@ -59,7 +74,7 @@ const About = () => {
                     }
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
