@@ -22,18 +22,39 @@ const languages = [
         name: 'Javascript',
         level: '50'
     },
-
- 
     {
         icon: react,
-        name: 'C++',
+        name: 'Node.Js',
+        level: '50'
+    },
+    {
+        icon: react,
+        name: 'Express.Js',
+        level: '50'
+    },
+    {
+        icon: react,
+        name: 'Mongo DB',
+        level: '50'
+    },
+    {
+        icon: react,
+        name: 'Java(Basics)',
+        level: '50'
+    },
+
+    
+    {
+        icon: react,
+        name: 'C++(Basics)',
         level: '40'
     },
     {
         icon: react,
-        name: 'c',
-        level: '30'
+        name: 'c(Basics)',
+        level: '40'
     },
+
 
 ]
 
@@ -46,7 +67,7 @@ const tools = [
     {
         icon: react,
         name: 'react',
-        level: '40'
+        level: '50'
     },
  
     {
@@ -56,18 +77,18 @@ const tools = [
     },
     {
         icon: react,
-        name: 'Django',
-        level: '35'
+        name: 'MERN',
+        level: '50'
     },
     {
         icon: react,
         name: 'Git & GitHub',
-        level: '60'
+        level: '50'
     },
     {
         icon: react,
         name: ' Heroku',
-        level: '40'
+        level: '30'
     },
 
 ]

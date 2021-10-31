@@ -15,6 +15,8 @@ const Navbar = () => {
             setActive('Projects')
         else if (currentURL.endsWith('/resume'))
             setActive('Resume')
+        else if (currentURL.endsWith('/skills'))
+            setActive('Skills')
 
     }, [active])
 
@@ -41,6 +43,7 @@ const Navbar = () => {
             <div className="navbar__active">
                 {active}
             </div>
+            <hr/>
 
             <div className="navbar__items">
                 {active !== 'About' &&
@@ -53,14 +56,20 @@ const Navbar = () => {
                         <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
                     </Link> : null
                 }
+                {active !== 'Skills' ?
+                    <Link to="/skills">
+                        <div className="navbar__item" onClick={() => setActive('Skills')}>Skills</div>
+                    </Link> : null
+                }
 
                 {active !== 'Projects' &&
                     <Link to="/projects">
                         <div className="navbar__item" onClick={() => setActive('Projects')}>Projects</div>
                     </Link>
                 }
+      
             </div>
-
+              
         </motion.div>
     );
 };

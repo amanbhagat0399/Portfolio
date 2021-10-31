@@ -56,6 +56,7 @@ const Projects = () => {
                     <div className={active === 'ds' && 'projects__navbar-active'} onClick={() => handleFilterCategory('ds')}>Data Science</div>
                     <div className={active === 'ml' && 'projects__navbar-active'} onClick={() => handleFilterCategory('ml')}>Machine Learning</div>
                 </div>
+                <hr/>
                 <div className="row">
 
                     {

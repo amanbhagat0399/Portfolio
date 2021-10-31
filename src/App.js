@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import { Route, Redirect, Switch, useLocation } from 'react-router-dom';
 import About from './components/About';
 import Resume from './components/Resume';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import { AnimatePresence } from 'framer-motion'
 
@@ -21,9 +22,10 @@ function App() {
 
           </div>
           <div className="col-lg-9 app__main-content">
+     
             {/* navbar */}
             <Navbar />
-
+            <hr/>
             <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.key}>
                 <Route exact path="/">
@@ -31,6 +33,9 @@ function App() {
                 </Route>
                 <Route path="/resume">
                   <Resume />
+                </Route>
+                <Route path="/skills">
+                  <Skills />
                 </Route>
                 <Route path="/projects" component={Projects} />
                 <Route>
