@@ -3,14 +3,19 @@ import python from '../../assets/icons/python.svg'
 
 const languages = [
     {
-        icon: python,
-        name: 'Python',
-        level: '70'
+        icon: react,
+        name: 'SQL',
+        level: '40'
+    },
+    {
+        icon: react,
+        name: 'Javascript',
+        level: '40'
     },
     {
         icon: react,
         name: 'HTML ',
-        level: '60'
+        level: '50'
     },
     {
         icon: react,
@@ -19,71 +24,45 @@ const languages = [
     },
     {
         icon: react,
-        name: 'Javascript',
-        level: '50'
-    },
-    {
-        icon: react,
-        name: 'Node.Js',
-        level: '50'
-    },
-    {
-        icon: react,
-        name: 'Express.Js',
-        level: '50'
-    },
-    {
-        icon: react,
-        name: 'Mongo DB',
-        level: '50'
-    },
-    {
-        icon: react,
-        name: 'Java(Basics)',
-        level: '50'
-    },
-
-    
-    {
-        icon: react,
         name: 'C++(Basics)',
-        level: '40'
+        level: '50'
     },
     {
-        icon: react,
-        name: 'c(Basics)',
-        level: '40'
-    },
+        icon: python,
+        name: 'Python',
+        level: '70'
+    }
 
 
 ]
 
 const tools = [
+
     {
         icon: react,
-        name: 'Bootstrap',
-        level: '65'
+        name: 'Data Scince',
+        level: '40'
     },
     {
         icon: react,
-        name: 'react',
+        name: 'Bootstrap',
         level: '50'
     },
  
     {
         icon: react,
-        name: 'Flask',
-        level: '50'
-    },
-    {
-        icon: react,
-        name: 'MERN',
-        level: '50'
-    },
-    {
-        icon: react,
         name: 'Git & GitHub',
         level: '50'
+    },
+    {
+        icon: react,
+        name: 'Ms Excel',
+        level: '50'
+    },
+    {
+        icon: react,
+        name: 'Power BI',
+        level: '40'
     },
     {
         icon: react,

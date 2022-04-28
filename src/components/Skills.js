@@ -37,7 +37,7 @@ const Skills = () => {
             <div className="row">
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                        Language and Framework
+                        Languages & Frameworks
                     </h5>
                     <div className="resume-language__body mt-3">
                         {
@@ -49,7 +49,7 @@ const Skills = () => {
                 </div>
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                    Tools 
+                    Tools & Frameworks
                     </h5>
                     <div className="resume-language__body mt-3">
                         {

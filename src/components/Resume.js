@@ -84,16 +84,16 @@ const Resume = () => {
                     <hr/>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                        TwoWaits Machine Learning &  Data Science Intern
+                        Machine Learning &  Data Science Intern (TwoWaits)
                         </h5>
-                        <p className="resume-card__name">I had got the opportunity for Data Science Intern, where i made various machine learning and data science Projects, which builds me up for ML and Data Science  </p>
+                        <p className="resume-card__name">I have got the opportunity for Data Science Intern, where i made various machine learning and data science Projects, which builds me up for ML and Data Science  </p>
                     </div>
                     <hr/>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                        TwoWaits Machine Learning &  Data Science Instructor
+                        Python instructor (TwoWaits)
                         </h5>
-                        <p className="resume-card__name">Currently i am working as a Macine Learning & Data Science Instructor, where i teach different machine learning and data science Projects and concept to students.  </p>
+                        <p className="resume-card__name">Worked as a python instructor at TwoWaits, where i have to teach python programmig language and basic data science and ML librarirs to students.  </p>
                     </div>
                 </div>
             </div>

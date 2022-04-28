@@ -13,23 +13,23 @@ const skills = [
 
     {
         icon: repair,
-        title: "Machine Learning",
-        about: "I have knowledge of various machine learning algorithms for Regression/Classification and of libraries like Numpy, Pandas, Scikit Learn and currently learning Deep Learning with Tensorflow Library",
+        title: "Data Analysis",
+        about: "I know MS Excel, SQL, Power BI (Beginner) and can perform the Data analysis and can build some beautiful Dashboards and draw some insights from data.",
     },
     {
         icon: computer,
-        title: "Data Science",
-        about: "I can perform the data science operations like EDA, Visualization, and Model Building with the help of libraries like Numpy, Pandas, Seaborn, Matplotlib, SckitLearn and will learn Power BI soon."
+        title: "Data Science / Machine Learning",
+        about: "I can perform the data science operations like EDA, Visualization, and Model Building with the help of libraries like Numpy, Pandas, Seaborn, Matplotlib, SckitLearn."
     },
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS, Bootstrap and React.js"
+        about: "I can build a beautiful  website templates and scalable SPA using HTML, CSS, Bootstrap and React.js(Basic)"
     },
     {
         icon: backend,
         title: "Backend  Development",
-        about: "I know Flask framework and database SQLite3, currently learning Django for API/ REST-API",
+        about: "I know Flask framework for ML model deploymemt and looking forward to learn Django for Web DEv Backend.",
     },
 
 ]
